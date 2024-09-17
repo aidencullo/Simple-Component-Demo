@@ -8,6 +8,4 @@ function PerScholasLogo() {
   return img;
 }
 
-export default function App() {
-  return <PerScholasLogo />;
-}
+export default PerScholasLogo;
