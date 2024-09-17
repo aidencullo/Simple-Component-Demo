@@ -2,6 +2,7 @@ import PerScholasLogo from "./PerScholasLogo.js";
 import TableOfContents from "./TableOfContents.js";
 import HelloWorld from "./HelloWorld.js";
 import StylizedComponent from "./StylizedComponent.js";
+import Gallery from "./Gallery.js";
 
 export default function App() {
   return <>
@@ -9,5 +10,6 @@ export default function App() {
 	   <TableOfContents />
 	   <HelloWorld />
 	   <StylizedComponent />
+	   <Gallery />
 	 </>;
 }
