@@ -18,6 +18,7 @@ export default function Gallery() {
       <PerScholasLogo />
       <PerScholasLogo />
       <PerScholasLogo />
+      <h1> {console.log(1)} </h1>
       <p style={{ textAlign: "center" }}>React!</p>
     </>
   );
