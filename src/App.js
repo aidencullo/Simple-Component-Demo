@@ -1,25 +1,13 @@
-function PerScholasLogo() {
-  return (
-    <img
-      src="https://perscholas.org/wp-content/themes/per-scholas/assets/images/logo1.svg"
-      alt="Per Scholas"
-      style={{
-        display: "flex",
-        margin: "1em auto"
-      }}
-    />
-  );
-}
+import PerScholasLogo from "./PerScholasLogo.js";
+import TableOfContents from "./TableOfContents.js";
+import HelloWorld from "./HelloWorld.js";
+import StylizedComponent from "./StylizedComponent.js";
 
-export default function Gallery() {
-  return (
-    <>
-      <h1 style={{ textAlign: "center" }}>Per Scholas</h1>
-      <PerScholasLogo />
-      <PerScholasLogo />
-      <PerScholasLogo />
-      <h1> {console.log(1)} </h1>
-      <p style={{ textAlign: "center" }}>React!</p>
-    </>
-  );
+export default function App() {
+  return <>
+	   <PerScholasLogo />
+	   <TableOfContents />
+	   <HelloWorld />
+	   <StylizedComponent />
+	 </>;
 }
