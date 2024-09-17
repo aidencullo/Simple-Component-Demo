@@ -8,5 +8,6 @@ export default function App() {
 	   <PerScholasLogo />
 	   <TableOfContents />
 	   { element }
+	   <div style={{display: "flex", backgroundColor: "blue"}}>Hello World</div>
 	 </>;
 }
