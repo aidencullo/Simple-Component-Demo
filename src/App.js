@@ -1,12 +1,9 @@
-function PerScholasLogo() {
-  return (
-    <img
-      src="https://perscholas.org/wp-content/themes/per-scholas/assets/images/logo1.svg"
-      alt="Per Scholas"
-    />
-  );
-}
+import PerScholasLogo from "./PerScholasLogo.js";
+import TableOfContents from "./TableOfContents.js";
 
 export default function App() {
-  return <PerScholasLogo />;
+  return <>
+	   <PerScholasLogo />
+	   <TableOfContents />
+	 </>;
 }
