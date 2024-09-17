@@ -1,11 +1,13 @@
 function PerScholasLogo() {
-  const img = (
+  const imgURL = "https://perscholas.org/wp-content/themes/per-scholas/assets/images/logo1.svg";
+  const alt = "Per Scholas";
+
+  return (
     <img
-      src="https://perscholas.org/wp-content/themes/per-scholas/assets/images/logo1.svg"
-      alt="Per Scholas"
+      src={imgURL}
+      alt={alt}
     />
   );
-  return img;
 }
 
 export default PerScholasLogo;
